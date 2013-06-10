@@ -1,3 +1,5 @@
+Changed Swipe a bit, to cut the slides left and right, for our [mobile-page](http://codelovers.de/mobile) of codeolovers.
+
 # Swipe 1.0
 Swipe is a lightweight mobile slider with **1-to-1** touch movement. For more info read the [blog post](http://pr-i.me/AQL2).
 
@@ -91,4 +93,4 @@ I would love to hear more about how to improve Swipe. Play with it and let me kn
 
 
 ## License
-Swipe mobile slider is &copy; 2011 [Brad Birdsall](http://bradbirdsall.com) and is licensed under the terms of GPL &amp; MIT licenses. 
+Swipe mobile slider is &copy; 2011 [Brad Birdsall](http://bradbirdsall.com) and is licensed under the terms of GPL &amp; MIT licenses.

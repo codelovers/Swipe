@@ -1,7 +1,7 @@
-<!DOCTYPE HTML> 
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
 <link href='style.css' rel='stylesheet'/>
 </head>
 <body>
@@ -46,7 +46,7 @@
   </ul>
 </div>
 
-<a href='#' onclick='slider3.prev();return false;'>prev</a> 
+<a href='#' onclick='slider3.prev();return false;'>prev</a>
 <a href='#' onclick='slider3.next();return false;'>next</a>
 <br><br>
 
@@ -62,18 +62,18 @@
   </div>
 </div>
 
-<a href='#' onclick='slider4.prev();return false;'>prev</a> 
+<a href='#' onclick='slider4.prev();return false;'>prev</a>
 <a href='#' onclick='slider4.next();return false;'>next</a>
 <br><br>
 
 
 <script src='swipe.js'></script>
 <script>
-new Swipe(document.getElementById('slider'));
+new Swipe(document.getElementById('slider'), { cut: 10 });
 new Swipe(document.getElementById('slider2'));
 var slider3 = new Swipe(document.getElementById('slider3'));
 var slider4 = new Swipe(document.getElementById('slider4'));
 </script>
 
-</body> 
-</html> 
+</body>
+</html>
